@@ -1,0 +1,9 @@
+body {
+  background-color: rgb(141, 122, 90);
+  text-align: center;
+  background-position: center;
+}
+ul {
+  list-style-type: none;
+  text-decoration: none;
+}
