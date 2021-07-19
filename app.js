@@ -6,7 +6,7 @@ const authorize = (req, res, next) => {
   const dayNow = new Date().getDay();
   const timeNow = new Date().getHours() + 2;
   console.log(timeNow, dayNow);
-  if (timeNow > 9 && timeNow <= 00 && dayNow <= 6 && dayNow > 0) {
+  if (timeNow > 9 && timeNow < 17 && dayNow < 6 && dayNow > 0) {
     next();
   } else {
     res
